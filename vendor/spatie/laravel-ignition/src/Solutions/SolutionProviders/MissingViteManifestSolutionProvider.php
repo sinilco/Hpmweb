@@ -48,7 +48,7 @@ class MissingViteManifestSolutionProvider implements HasSolutionsForThrowable
 
     protected function getProductionSolution(string $baseCommand): Solution
     {
-        return BaseSolution::create('Build the production assets')
+        return BaseSolution::create('Build the production theme')
             ->setSolutionDescription("Run `{$baseCommand} build` in your deployment script.")
             ->setDocumentationLinks($this->links);
     }

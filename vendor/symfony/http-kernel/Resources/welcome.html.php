@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noodp,notranslate,noimageindex" />
     <title>Welcome to Symfony!</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>👋</text></svg>">
     <style>
         <?php $hue = random_int(0, 360); ?>
         <?php $darkColor = static function (float $alpha = 1) use ($hue) { return "hsla($hue, 20%, 45%, $alpha)"; }; ?>
@@ -98,7 +99,7 @@
             <div class="resource">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 11.55C9.64 9.35 6.48 8 3 8v11c3.48 0 6.64 1.35 9 3.55 2.36-2.19 5.52-3.55 9-3.55V8c-3.48 0-6.64 1.35-9 3.55zM12 8c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"/></svg>
                 <h2>Documentation</h2>
-                <a href="https://symfony.com/doc/<?= $docVersion; ?>/index.html">
+                <a href="https://symfony.com/doc/<?= $docVersion; ?>/index.php">
                     Guides, components, references
                 </a>
             </div>

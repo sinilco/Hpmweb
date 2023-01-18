@@ -192,7 +192,7 @@
 - Handle SQLite without ENABLE_DBSTAT_VTAB enabled in `Illuminate/Database/Console/DatabaseInspectionCommand::getSqliteTableSize()` ([#44867](https://github.com/laravel/framework/pull/44867))
 - Apply force flag when necessary in `Illuminate/Queue/Listener` ([#44862](https://github.com/laravel/framework/pull/44862))
 - De-couple Console component from framework ([#44864](https://github.com/laravel/framework/pull/44864))
-- Update Vite mock to return empty array for preloadedAssets ([#44858](https://github.com/laravel/framework/pull/44858))
+- Update Vite mock to return empty array for preloadedtheme ([#44858](https://github.com/laravel/framework/pull/44858))
 
 
 ## [v9.38.0](https://github.com/laravel/framework/compare/v9.37.0...v9.38.0) - 2022-11-01
@@ -216,7 +216,7 @@
 - Recompiles views when necessary ([#44737](https://github.com/laravel/framework/pull/44737))
 - Throw meaningful exception when broadcast connection not configured ([#44745](https://github.com/laravel/framework/pull/44745))
 - Prevents booting of providers when running env:encrypt ([#44758](https://github.com/laravel/framework/pull/44758))
-- Added nonce for preloaded assets ([#44747](https://github.com/laravel/framework/pull/44747))
+- Added nonce for preloaded theme ([#44747](https://github.com/laravel/framework/pull/44747))
 - Inherit crossorigin attributes while preloading view ([#44800](https://github.com/laravel/framework/pull/44800))
 
 
@@ -225,7 +225,7 @@
 ### Added
 - Added optional verbose output when view caching ([#44673](https://github.com/laravel/framework/pull/44673))
 - Allow passing closure to rescue $report parameter ([#44710](https://github.com/laravel/framework/pull/44710))
-- Support preloading assets with Vite ([#44096](https://github.com/laravel/framework/pull/44096))
+- Support preloading theme with Vite ([#44096](https://github.com/laravel/framework/pull/44096))
 - Added `Illuminate/Mail/Mailables/Content::htmlString()` ([#44703](https://github.com/laravel/framework/pull/44703))
 
 ### Fixed
@@ -587,7 +587,7 @@
 - Allow chunkById on Arrays, as well as Models ([#43666](https://github.com/laravel/framework/pull/43666))
 - Allow for int value parameters to whereMonth() and whereDay() ([#43668](https://github.com/laravel/framework/pull/43668))
 - Cleaning up old if-else statement ([#43712](https://github.com/laravel/framework/pull/43712))
-- Ensure correct 'integrity' value is used for css assets ([#43714](https://github.com/laravel/framework/pull/43714))
+- Ensure correct 'integrity' value is used for css theme ([#43714](https://github.com/laravel/framework/pull/43714))
 
 
 ## [v9.24.0](https://github.com/laravel/framework/compare/v9.23.0...v9.24.0) - 2022-08-09

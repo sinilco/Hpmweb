@@ -5,7 +5,7 @@ namespace Illuminate\Http\Middleware;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Vite;
 
-class AddLinkHeadersForPreloadedAssets
+class AddLinkHeadersForPreloadedtheme
 {
     /**
      * Handle the incoming request.
@@ -17,8 +17,8 @@ class AddLinkHeadersForPreloadedAssets
     public function handle($request, $next)
     {
         return tap($next($request), function ($response) {
-            if (Vite::preloadedAssets() !== []) {
-                $response->header('Link', Collection::make(Vite::preloadedAssets())
+            if (Vite::preloadedtheme() !== []) {
+                $response->header('Link', Collection::make(Vite::preloadedtheme())
                     ->map(fn ($attributes, $url) => "<{$url}>; ".implode('; ', $attributes))
                     ->join(', '));
             }
