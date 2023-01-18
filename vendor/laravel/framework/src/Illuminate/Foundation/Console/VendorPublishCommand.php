@@ -47,9 +47,9 @@ class VendorPublishCommand extends Command
     protected $signature = 'vendor:publish
                     {--existing : Publish and overwrite only the files that have already been published}
                     {--force : Overwrite any existing files}
-                    {--all : Publish theme for all service providers without prompt}
-                    {--provider= : The service provider that has theme you want to publish}
-                    {--tag=* : One or many tags that have theme you want to publish}';
+                    {--all : Publish assets for all service providers without prompt}
+                    {--provider= : The service provider that has assets you want to publish}
+                    {--tag=* : One or many tags that have assets you want to publish}';
 
     /**
      * The name of the console command.
@@ -67,7 +67,7 @@ class VendorPublishCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Publish any publishable theme from vendor packages';
+    protected $description = 'Publish any publishable assets from vendor packages';
 
     /**
      * Create a new command instance.
@@ -167,7 +167,7 @@ class VendorPublishCommand extends Command
     }
 
     /**
-     * Publishes the theme for a tag.
+     * Publishes the assets for a tag.
      *
      * @param  string  $tag
      * @return mixed
@@ -180,7 +180,7 @@ class VendorPublishCommand extends Command
 
         if ($publishing = count($pathsToPublish) > 0) {
             $this->components->info(sprintf(
-                'Publishing %stheme',
+                'Publishing %sassets',
                 $tag ? "[$tag] " : '',
             ));
         }

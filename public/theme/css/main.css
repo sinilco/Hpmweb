@@ -257,11 +257,12 @@ section {
 --------------------------------------------------------------*/
 .header {
   z-index: 997;
-  position: absolute;
-  padding: 30px 0;
+  position: fixed;
+  padding: 13px 0;
   top: 0;
   left: 0;
   right: 0;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .header .logo img {
@@ -1896,7 +1897,7 @@ section {
 
 @media (max-width: 768px) {
   .hero .info {
-    padding: 0 50px;
+    padding: 1 50px;
   }
 }
 
@@ -1904,7 +1905,7 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
   position: relative;
 }

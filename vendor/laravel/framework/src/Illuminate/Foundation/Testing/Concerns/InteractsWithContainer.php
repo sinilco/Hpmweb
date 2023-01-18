@@ -157,7 +157,7 @@ trait InteractsWithContainer
                 return $this;
             }
 
-            public function preloadedtheme()
+            public function preloadedAssets()
             {
                 return [];
             }

@@ -451,7 +451,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Fixed
 
-* [#654](https://github.com/sebastianbergmann/php-code-coverage/issues/654): HTML report fails to load theme
+* [#654](https://github.com/sebastianbergmann/php-code-coverage/issues/654): HTML report fails to load assets
 * [#655](https://github.com/sebastianbergmann/php-code-coverage/issues/655): Popin pops in outside of screen
 
 ### Removed

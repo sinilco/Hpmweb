@@ -11,8 +11,10 @@
     <div class="info d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Hanjaya Perkasa Metals <span>Indonesia </span></h2>
+          <div class="col-lg-10 text-center">
+            <h2 data-aos="fade-down">Hanjaya Perkasa Metals 
+              <br>
+            <span>Indonesia </span></h2>
             <p data-aos="fade-up">P.T. H.P. Metals Indonesia is an aluminium extrusion manufacturer which was first established in 1995, in the city of Mojokerto, East Java.
                                   For over 25 years, we have offered wide-range of outstanding quality products and services, and has been the global and local supplier for Architectural and Building Construction, Electronics and Electrical Parts, Furniture & Automobile Industries.</p>
             <a data-aos="fade-up" data-aos-delay="200" href="{{url('/order')}}" class="btn-get-started">Make Order</a>

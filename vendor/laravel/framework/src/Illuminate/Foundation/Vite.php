@@ -77,11 +77,11 @@ class Vite implements Htmlable
     protected $preloadTagAttributesResolvers = [];
 
     /**
-     * The preloaded theme.
+     * The preloaded assets.
      *
      * @var array
      */
-    protected $preloadedtheme = [];
+    protected $preloadedAssets = [];
 
     /**
      * The cached manifest files.
@@ -91,13 +91,13 @@ class Vite implements Htmlable
     protected static $manifests = [];
 
     /**
-     * Get the preloaded theme.
+     * Get the preloaded assets.
      *
      * @return array
      */
-    public function preloadedtheme()
+    public function preloadedAssets()
     {
-        return $this->preloadedtheme;
+        return $this->preloadedAssets;
     }
 
     /**
@@ -397,7 +397,7 @@ class Vite implements Htmlable
             return '';
         }
 
-        $this->preloadedtheme[$url] = $this->parseAttributes(
+        $this->preloadedAssets[$url] = $this->parseAttributes(
             Collection::make($attributes)->forget('href')->all()
         );
 
