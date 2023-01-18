@@ -59,7 +59,7 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         },
-        "cache-dir": "/home/u1601339/public_html/webhpm/webhpm/cache"
+        "cache-dir": "/home/u1601339/public_html/Hpmweb/Hpmweb/cache"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

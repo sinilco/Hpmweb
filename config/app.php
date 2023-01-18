@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://webhpm.itcasets.com/webhpm'),
+    'url' => env('APP_URL', 'https://itcasets.com/Hpmweb'),
 
     'asset_url' => env('ASSET_URL'),
 
