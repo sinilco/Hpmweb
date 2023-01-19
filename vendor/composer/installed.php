@@ -358,6 +358,24 @@
                 0 => 'v9.46.0',
             ),
         ),
+        'infyomlabs/laravel-generator-helpers' => array(
+            'pretty_version' => 'v4.0.0',
+            'version' => '4.0.0.0',
+            'reference' => '89a83f334a8cfa16bbbad2c60218c9e66536cf9a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../infyomlabs/laravel-generator-helpers',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'infyomlabs/laravel-ui-adminlte' => array(
+            'pretty_version' => 'v5.1.0',
+            'version' => '5.1.0.0',
+            'reference' => '61aab3f160169d56acfb91e29b66dff9cb365967',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../infyomlabs/laravel-ui-adminlte',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -424,6 +442,15 @@
             'reference' => '5062061b4924af3392225dd482ca7b4d85d8b8ef',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/tinker',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laravel/ui' => array(
+            'pretty_version' => 'v3.4.6',
+            'version' => '3.4.6.0',
+            'reference' => '65ec5c03f7fee2c8ecae785795b829a15be48c2c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/ui',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -718,8 +745,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
